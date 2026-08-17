@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "Dark-s-something/android_device_google_redbull",
+    "target_path": "device/google/redbull"
+  },
+  {
+    "repository": "LineageOS/android_kernel_google_redbull",
+    "target_path": "kernel/google/redbull"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_google_bramble",
+    "target_path": "vendor/google/bramble"
+  }
+]
