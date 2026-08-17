@@ -7,6 +7,10 @@
 # Inherit PixelOS common configuration.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
+# PixelOS/AOSPA system payloads intentionally place several prebuilt files
+# outside the Android 16 artifact-path allowlist.
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
+
 # Inherit device configuration
 $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 $(call inherit-product, device/google/redbull/custom_common.mk)
